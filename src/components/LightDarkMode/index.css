@@ -1,0 +1,44 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 24px;
+}
+
+.dark-mode {
+  color: #ffffff;
+  background-color: #000000;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.light-mode {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  align-items: center;
+}
+
+.button {
+  font-size: 16px;
+  border-width: 2px;
+  padding: 16px;
+  border-radius: 8px;
+  border-color: #000000;
+  border-style: solid;
+}
